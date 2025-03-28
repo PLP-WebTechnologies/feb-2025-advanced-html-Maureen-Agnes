@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ol>
+
+    <!-- External Image -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" alt="Sample Image from Pexels" width="500">
+
+    <!-- Contacts Table -->
+    <h2>Contacts Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St</td>
+                <td>+1234567890</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Oak Ave</td>
+                <td>+9876543210</td>
+                <td>jane@example.com</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>789 Pine Rd</td>
+                <td>+1112223333</td>
+                <td>michael@example.com</td>
+            </tr>
+            <tr>
+                <td>Sarah White</td>
+                <td>321 Birch Ln</td>
+                <td>+4445556666</td>
+                <td>sarah@example.com</td>
+            </tr>
+            <tr>
+                <td>David Black</td>
+                <td>654 Cedar Blvd</td>
+                <td>+7778889999</td>
+                <td>david@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required title="Select if you are male"> Male
+        <input type="radio" id="female" name="gender" value="female" required title="Select if you are female"> Female
+        <input type="radio" id="other" name="gender" value="other" required title="Select if you are other"> Other
+        <br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select a country</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+        </select>
+        <br><br>
+
+        <label>Interests:</label>
+        <label>
+            <input type="checkbox" name="interests" value="coding" title="Select if you are interested in coding"> Coding
+        </label>
+        <input type="checkbox" name="interests" value="sports" title="Select if you are interested in sports"> Sports
+        <input type="checkbox" name="interests" value="music" title="Select if you are interested in music"> Music
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
